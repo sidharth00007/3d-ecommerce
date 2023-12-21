@@ -17,8 +17,8 @@ export async function POST(req) {
                 payment_method_types: ["card"] , 
                 line_items: res,
                 mode: "payment",
-                success_url: "http://localhost:3000/checkout" + "?status=success",
-                cancel_url: "http://localhost:3000/checkout" + "?status=cancel",
+                success_url: "https://3d-ecommerce-c5ntff9os-sidharth00007.vercel.app/checkout" + "?status=success",
+                cancel_url: "https://3d-ecommerce-c5ntff9os-sidharth00007.vercel.app/checkout" + "?status=cancel",
             });
 
             return NextResponse.json({
