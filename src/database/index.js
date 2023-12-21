@@ -1,14 +1,5 @@
 import mongoose from "mongoose";
 import * as dotenv from 'dotenv';
-import cors from 'cors';
-
-const corsOptions ={
-   origin:'*', 
-   credentials:true,            //access-control-allow-credentials:true
-   optionSuccessStatus:200,
-}
-
-app.use(cors(corsOptions)) // Use this after the variable declaration
 
 dotenv.config();
 
